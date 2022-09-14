@@ -1,0 +1,185 @@
+body {
+    background: white;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    display: grid;
+    grid-template-columns: [start] 400px [mid] auto [end];
+    margin: 2px 2px 2px 0;
+}
+
+#pro-pic {
+    object-fit: cover;
+    width: 400px;
+    margin-left: 0;
+    margin-top: 2px;
+
+}
+
+#title-headings {
+    padding: 0.5rem;
+    border: solid black 1px;
+    margin: 2px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+#title-headings h1 {
+    font-family: "Share", cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+#title-headings h2 {
+    font-family: "Share", cursive;
+    font-size: 25px;
+    padding-left: 5rem;
+    margin: 0.5rem 0;
+}
+
+header nav {
+    align-self: end;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Amatic SC", cursive;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+header nav li a:hover {
+    color: darkgreen;
+    border: solid darkgreen 1px;
+}
+
+header nav li a:active {
+    color: darkseagreen;
+    border: solid darkseagreen 1px;
+}
+
+/* About Me Styles */
+#bio {
+    margin: 3rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: [bio-start] 60% [bio-end] 10% [quote-start] 25% [quote-end];
+}
+
+#bio-body {
+    border: solid black 1px;
+    grid-column: bio-start / bio-end;
+    padding: 1rem;
+}
+
+#bio h2 {
+    font-family: "Zilla Slab", serif;
+}
+
+#bio-body p {
+    font-family: "Roboto", sans-serif;
+}
+
+.testimonial-quote {
+    background-color: #0E2A00;
+    align-self: center;
+    grid-column: quote-start / quote-end;
+    color: white;
+    font-family: "Zilla Slab", serif;
+    width: fit-content;
+}
+
+/* Design and Care Styles */
+#design-care-container {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: [design-start] 48% [design-end] 4% [care-start] 48% [care-end];
+    height: 500px;
+}
+
+#design-care-container a {
+    text-decoration: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#design-care-container .click-box h2 {
+    color: white;
+    font-family: "Amatic SC", cursive;
+    font-weight: normal;
+    font-size: 35px;
+    border: solid white 1px;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+#design-care-container a:hover h2 {
+    color: darkseagreen;
+    border-color: darkseagreen;
+}
+
+#design-care-container a:active h2 {
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+#design {
+    grid-column: design-start / design-end;
+    background-image: url('../images/natural-dekalb-3.jpg');
+}
+
+#care {
+    grid-column: care-start / care-end;
+    background-image: url('../images/myrtle-2.jpg');
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #0E2A00;
+    color: white;
+    margin-bottom: 0;
+    padding: 3rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer #footer-content-box {
+    border: solid white 1px;
+    width: fit-content;
+    padding: 1rem 2rem;
+}
+
+footer h2 {
+    font-family: "Share", cursive;
+    font-size: 35;
+}
+
+footer h3 {
+    font-family: "Zilla Slab", serif;
+    font-size: 25;
+}
+
+footer p {
+    font-family: "Roboto", sans-serif;
+}
