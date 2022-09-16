@@ -183,3 +183,88 @@ footer h3 {
 footer p {
     font-family: "Roboto", sans-serif;
 }
+
+/* Design page styles */
+#design-main {
+    margin-left: 2rem;
+}
+#design-main h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 35px;
+}
+
+#design-intro-blurb {
+    padding: 2rem;
+    margin: 1rem 2rem;
+    border: solid black 1px;
+}
+
+#design-intro-blurb p {
+    font-family: "Zilla Slab", serif;
+}
+
+#design-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a.project-click-box {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+a.project-click-box .project-box-content {
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.project-click-box .project-box-content h3 {
+    font-family: "Amatic SC", cursive;
+    border: solid white 1px;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#deion-yard-project {
+    background-image: url('../images/deion-yard-3.jpg');
+}
+
+#dekalb-entrance-garden {
+    background-image: url('../images/dekalb-3.jpg');
+}
+
+#myrtle-washington-entrance-garden{
+    background-image: url('../images/myrtle-2.jpg');
+}
+
+#dekalb-hospital {
+    background-image: url('../images/natural-dekalb-3.jpg');
+}
+
+#st-edwards {
+    background-image: url('../images/natural-st-edward-2.jpg');
+}
+
+a.project-click-box:hover {
+    border: solid darkseagreen 1px;
+}
+
+a.project-click-box:hover h3 {
+    color: darkseagreen;
+    border-color: darkseagreen;
+}
+
+a.project-click-box:active {
+    border: solid darkgreen 1px;
+}
+
+a.project-click-box:active h3 {
+    color: darkgreen;
+    border-color: darkgreen;
+}
