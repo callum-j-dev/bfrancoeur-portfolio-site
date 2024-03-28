@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: white;
     margin: 0;
@@ -90,11 +93,11 @@ header nav li a:active {
 }
 
 #bio h2 {
-    font-family: "Zilla Slab", serif;
+    font-family: "Amatic SC", cursive;
 }
 
 #bio-body p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Zilla Slab", serif;
 }
 
 .testimonial-quote {
@@ -268,3 +271,134 @@ a.project-click-box:active h3 {
     color: darkgreen;
     border-color: darkgreen;
 }
+
+/* Care page styles */
+#care-main h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+#care-blurb  {
+    background-image: url('../images/myrtle-2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    max-width: 75%;
+}
+
+#care-blurb-content {
+    border: solid white 1px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: "Zilla Slab",  serif;
+}
+
+/* Design Project Page Styles */
+
+
+/* Slideshow container */
+#project-main h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 35px;
+    text-align: center;
+ }
+
+#slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+ }
+
+#slideshow-container p {
+    font-family: "Zilla Slab", serif;
+}
+
+
+
+ .mySlides {
+    display: none;
+ }
+
+ .slide-image {
+     vertical-align: middle;
+     width: 100%;
+ }
+ /* Next & previous buttons */
+ .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+ }
+ /* Position the "next button" to the right */
+ .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+ }
+ /* On hover, add a black background color with a little bit seethrough */
+ .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+ }
+ /* Caption text */
+ .slide-caption {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+ }
+ /* Number text (1/3 etc) */
+ .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+ }
+ /* The dots/bullets/indicators */
+ .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+ }
+ .active, .dot:hover {
+    background-color: #717171;
+ }
+
+ #project-blurb {
+     /* background-color: #0E2A00; */
+     color: black;
+     padding: 1rem;
+     max-width: 750px;
+     margin: 2rem auto;
+ }
+
+ #project-blurb .blurb-text {
+     font-family: "Zilla Slab", serif;
+     border: solid black 1px;
+     padding: 0.5rem;
+     margin: 0;
+ }
+
+
+
