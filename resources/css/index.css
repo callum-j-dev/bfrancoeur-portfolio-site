@@ -50,7 +50,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 1rem;
     margin: 0;
     padding: 0;
@@ -58,6 +58,7 @@ header nav ul {
 
 header nav li {
     display: inline-block;
+    margin: 1rem 2rem;
 }
 
 header nav li a {
@@ -202,7 +203,7 @@ footer p {
     border: solid black 1px;
 }
 
-#design-intro-blurb p {
+#design-intro-blurb p, h3, span {
     font-family: "Zilla Slab", serif;
 }
 
