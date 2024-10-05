@@ -11,14 +11,14 @@
 </head>
 <body>
     <header>
-        <img id="pro-pic" src="/resources/images/pro-pic-2.JPG" alt="Brian Francoeur" />
+        <img id="pro-pic" src="/resources/images/pro-pic-3.JPG" alt="Brian Francoeur" />
         <div id="title-headings">
             <h1>Brian Francoeur</h1>
             <h2>Garden Design & Maintenance</h2>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="design.html">Design</a>
@@ -27,22 +27,28 @@
                         <a href="maintenance.html">Maintenance</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <h1>Send me a message!</h1>
-    <form action="https://formsubmit.co/francoeur.bri@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Name..." required>
-        <input type="email" name="email" placeholder="Email Address..." required>
-        <input type="text" name="message" placeholder="Your Message..." required>
-        <input type="hidden" name="_subject" value="Francoeur Landscape Studio Request">
-        <input type="hidden" name="_next" value="http://localhost:52330/thanks.html">
-        <button type="submit">Send</button>
-   </form>
+    <section class="content-box">
+        <h1>Send me a message!</h1>
+        <form action="https://formsubmit.co/francoeur.bri@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Name..." required>
+            <input type="email" name="email" placeholder="Email Address..." required>
+            <!-- <input type="text" name="message" placeholder="Your Message..." required> -->
+            <h5>Your message:</h5>
+            <textarea name="message" id="message" rows="6" required>Enter your message here!</textarea>
+            <input type="hidden" name="_subject" value="Francoeur Landscape Studio Request">
+            <input type="hidden" name="_next" value="http://localhost:52330/thanks.html">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    
 
    <footer>
     <div id="footer-content-box">

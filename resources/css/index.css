@@ -401,5 +401,23 @@ a.project-click-box:active h3 {
      margin: 0;
  }
 
+ /* Contact page */
+ .content-box {
+    border: 1px solid #0d170e;
+    padding: 2rem;
+    margin: 3rem;
+    font-family: "Zilla Slab", serif;
+    height: 40rem;
+    width: 75%;
+ }
+
+ #message {
+    width: 75%;
+ }
+
+ #message textarea {
+    field-sizing: content;
+ }
+
 
 
